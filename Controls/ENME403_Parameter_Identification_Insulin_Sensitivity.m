@@ -8,7 +8,6 @@
 clc
 clear
 
-
 %# A-priori Prameters
 nT = 0.2;       %# Clearance rate (1/min)
 nI = 0.05;      %# Plasma to interstitium transport rate (1/min)
@@ -136,10 +135,7 @@ title(sprintf('Objective Function Contour for Data Set %d',simNo))
 
 end
 
-
-
 %----------------- IIM Method to Identify SI and VI ----------------------%
-
 
 for simNo = 1:2
    
@@ -192,12 +188,7 @@ for simNo = 1:2
     SIConv(simNo)=Si;
     VGConv(simNo)=VG;
     
- 
-    
     figure(2)
-    
-    
-    
     figure(3)
     
     hold all
@@ -226,7 +217,6 @@ end
 
 %------------------- Simulate Glucose Profile SI and VI ------------------%
 
-
 for simNo=1:2
     
     if simNo==1
@@ -239,7 +229,6 @@ for simNo=1:2
         Grun= G_T2N;;
     end
     
-   
     G0=Grun(1);
     Gsim = G0*ones(size(t));
     for i = 1:30
@@ -255,10 +244,7 @@ for simNo=1:2
     ylabel('Glucose Concentration (mmol.L^-^1) ')
 end
 
-
 %----------- Levenberg Marquardt Method to Identify SI and VI ------------%
-
-
 
 for simNo = 1:2
     
@@ -286,21 +272,13 @@ for simNo = 1:2
     legend('Contours','Levenberg-Marquardt Parameter''IIM Optimal Value')
 end
 
-
-
 %------------------------ Montecarlo Investigation -----------------------%
-
-
 
 for simNo = 1:1
    
-    
-    
 %# Initial Values
 Si=0.001;   %# What am I
 VG=15;      %# What am I
-
-
 
 %# Initialize Matrix
 
