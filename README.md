@@ -8,9 +8,9 @@ MATLAB
 
 ##### FVM Simulation of a Potential Flow around a 90° Corner
 
-![Stream Lines](https://github.com/benjmunro/MatLAB/blob/master/Computational%20Fluid%20Mechanics/Refined%20mesh.png)
+<div align="center">
 ![Stream Lines](https://github.com/benjmunro/MatLAB/blob/master/Computational%20Fluid%20Mechanics/Stream_lines.png)
-
+</div>
 
 ### Controls and Parameter ID
 
