@@ -5,7 +5,8 @@ MATLAB
 
 ### Computational Fluid Mechanics
 
-![Stream Lines](https://github.com/benjmunro/MatLAB/blob/master/Computational%20Fluid%20Mechanics/Flow%20Streamlines.tif)
+![Stream Lines](https://raw.github.com/benjmunro/MatLAB/Computational Fluid Mechanics/Refined mesh.png)
+![Stream Lines](https://raw.github.com/benjmunro/MatLAB/Computational Fluid Mechanics/Stream_lines.png)
 
 ### Controls and Parameter ID
 
