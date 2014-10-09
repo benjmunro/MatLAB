@@ -97,7 +97,7 @@ Newmrk Beta integration. Integrates a MDOF/SDOF system with mass Matrix "M", sti
 
 
 <p align="center">
-  <img src="https://github.com/benjmunro/MatLAB/blob/master/Controls/IV.tif" alt="Stream lines"/>
+  <img src="https://github.com/benjmunro/MatLAB/blob/master/Controls/IV.png" alt="Stream lines"/>
 </p>
 
 
