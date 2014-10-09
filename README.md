@@ -49,9 +49,9 @@ Discription : Solve for temperature along a thin plate wih tranisent 1D heat con
 Methods for analyzing vibrations in mechanical systems.
 
 Discrete Systems (Analysis)
-    1. Time Domain Methods – Numerical Integration Methods
-    2. Frequency Domain Methods
-    3. Modal Domain Methods
+  1. Time Domain Methods – Numerical Integration Methods
+  2. Frequency Domain Methods
+  3. Modal Domain Methods
 
 →All methods and models will be developed for SDOF systems and applied to MDOF systems. Data for analysis is included, from the 2010 Canterbury Earth Quake. 
 
