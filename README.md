@@ -96,6 +96,10 @@ Newmrk Beta integration. Integrates a MDOF/SDOF system with mass Matrix "M", sti
 ### Controls and Parameter ID
 
 
+<p align="center">
+  <img src="https://github.com/benjmunro/MatLAB/blob/master/Controls/IV.tif" alt="Stream lines"/>
+</p>
+
 
 
 ### Computational Mathematics
