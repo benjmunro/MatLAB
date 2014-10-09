@@ -68,23 +68,29 @@ Discrete Systems (Analysis)
 ##### Freqency Domain
 *Freqency Domain Analysis-MDOF.m*  -- mutiple degrees of fredom
 *Freqency_Domain_Analysis_SDOF.m*  -- Single degree of fredom
+
 These scripts takes an input force, transfers it to the freqency domian using fft. The script calculates the trasfer function which is then mutiplied by the fft input force to get the response in the freqency domian which is then transfered back to the time domain using ifft
 
  *Modal_Domain_Analysis.m*
+ 
  This scripts takes an input force, transfers it to the modal domian. Returns Mode Shapes, Mode response and time response.  
  
  *DFT.m*
+ 
  Discrete Fourier Transform. Returns the real and imaginary parts of the F in the frequency domain
  
  *IDFT.m*
+ 
  Inverse Discrete Fourier Transform.Returns the time domain form from the real and imaginary parts of the F 
  in the frequency domain
 
 *Euler.m*
+
 Performs Euler Intergration, SDOF
  
 *Newmark_B_SDOF.m* 
 *Newmark_B_MDOF.m*
+
 Newmrk Beta integration. Integrates a MDOF/SDOF system with mass Matrix "M", stiffness Matrix "K" and damping coeffiecient Matrix "D", when subjected to an external load f(t). Returns the displacement, velocity and acceleration of the system with respect to an inertial frame of reference.
 
 ### Controls and Parameter ID
