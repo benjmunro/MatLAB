@@ -81,7 +81,7 @@ These scripts takes an input force, transfers it to the freqency domian using ff
  in the frequency domain
 
 *Euler.m*
- Performs Euler Intergration, SDOF
+Performs Euler Intergration, SDOF
  
 *Newmark_B_SDOF.m* 
 *Newmark_B_MDOF.m*
