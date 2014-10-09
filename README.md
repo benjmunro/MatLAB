@@ -46,8 +46,14 @@ Discription : Solve for temperature along a thin plate wih tranisent 1D heat con
 *Unsteady_Heat_Transfer.m* -- Solves problem 8.1 with fully implict, fully explict or Crank Nickelson method 
 
 ### Vibrations and Dynamics
+Methods for analyzing vibrations in mechanical systems.
 
-Time, Frequency and Moldal domain analysis of 
+Discrete Systems (Analysis)
+    1. Time Domain Methods – Numerical Integration Methods
+    2. Frequency Domain Methods
+    3. Modal Domain Methods
+
+→All methods and models will be developed for SDOF systems and applied to MDOF systems. Data for analysis is included, from the 2010 Canterbury Earth Quake. 
 
 <p align="center">
   <img src="https://github.com/benjmunro/MatLAB/blob/master/Vibrations/Modal%20Displacement.jpg" alt="Stream lines"/>
