@@ -45,16 +45,24 @@ Discription : Solve for temperature along a thin plate wih tranisent 1D heat con
 
 *Unsteady_Heat_Transfer.m* -- Solves problem 8.1 with fully implict, fully explict or Crank Nickelson method 
 
+### Vibrations and Dynamics
+
+Time, Frequency and Moldal domain analysis of 
+
+<p align="center">
+  <img src="https://github.com/benjmunro/MatLAB/blob/master/Vibrations/Modal%20Displacement.jpg" alt="Stream lines"/>
+</p>
+
+
+
+*Freqency Domain Analysis-MDOF.m*
+This script takes an input force, transfers it to the freqency domian using fft. The script calculates the trasfer function which is then mutiplied by the fft input force to get the response in the freqency domian which is then transfered back to the time domain using ifft
+
+
+
 ### Controls and Parameter ID
 
 
 
 
 ### Computational Mathematics
-
-
-
-
-
-### Vibrations and Dynamics
-
