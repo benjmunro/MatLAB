@@ -8,6 +8,8 @@ MATLAB
 
 ##### FVM Simulation of a Potential Flow around a 90° Corner
 
+See FVM Simulation of a Potential Flow around a 90° Corner.pdf
+
 <p align="center">
   <img src="https://github.com/benjmunro/MatLAB/blob/master/Computational%20Fluid%20Mechanics/Stream_lines.png" alt="Stream lines"/>
 </p>
